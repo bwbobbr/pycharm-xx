@@ -1,0 +1,21 @@
+place = ["beijing","zhejiang","congqing","haerbin","jiangsu","shanghai"]
+print(place)
+print(sorted(place))
+print(place)
+print(sorted(place,reverse=True))
+print(place)
+'''
+print(place.reverse())
+print(place.reverse())
+print(place.sort())
+print(place.sort(reverse=True))
+'''# 总结,sort()与reverse()不能直接输出,不是一个值,要分开来书写
+print("*"*100)
+place.reverse()
+print(place)
+place.reverse()
+print(place)
+place.sort()
+print(place)
+place.sort(reverse=True)
+print(place)
